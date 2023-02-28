@@ -12,11 +12,14 @@
         <div class="logo">
             <img src="./img/780749.png" alt="M3">
         </div>
-        <h1>To-Do App</h1>
+
+        <h1 id="header" class="header">To-Do App</h1>
+        
+        
         <form class="new-task-container box">
-        <label for="new-task"></label>
+        <label for="new-task">Add New Task</label>
         <input type="text" id="new-task">
-        <button id="addTask">Add Task</button>
+        <input type="submit" id="addTask" value="Add Task" />
     </form>
 
     <div class="todo-list box">
@@ -26,6 +29,23 @@
                 <input type="checkbox" /> <label>Task Name</label>
                 <button class="update">Update</button>
             </li>
+            <li>
+                <input type="checkbox" /> <label>Task Name</label>
+                <button class="update">Update</button>
+            </li>
+            <li>
+                <input type="checkbox" /> <label>Task Name</label>
+                <button class="update">Update</button>
+            </li>
+        </ul>
+    </div>
+    <!-- todo-list -->
+
+
+    <div class="complete-list box">
+        <h2>Completed Tasks</h2>
+        <ul>
+            <li class="item">Task Name <button class="delete">Delete</button></li>
         </ul>
     </div>
     <!--complete list-->
