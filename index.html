@@ -12,45 +12,39 @@
         <div class="logo">
             <img src="./img/780749.png" alt="M3">
         </div>
-
         <h1 id="header" class="header">To-Do App</h1>
-        
-        
+  
         <form class="new-task-container box">
-        <label for="new-task">Add New Task</label>
-        <input type="text" id="new-task">
-        <input type="submit" id="addTask" value="Add Task" />
-    </form>
-
-    <div class="todo-list box">
-        <h2>Incomplete Tasks</h2>
-        <ul id="items">
-            <li>
-                <input type="checkbox" /> <label>Task Name</label>
-                <button class="update">Update</button>
+          <label for="new-task">Add New Task</label>
+          <input type="text" id="new-task" />
+          <input type="submit" id="addTask" value="Add Task" />
+        </form>
+  
+        <div class="todo-list box">
+          <h2>Incomplete Tasks</h2>
+          <ul id="items">
+            <li class="item">
+              <input type="checkbox" /><label>Task Name</label>
             </li>
-            <li>
-                <input type="checkbox" /> <label>Task Name</label>
-                <button class="update">Update</button>
+            <li class="item">
+              <input type="checkbox" /><label>Task Name</label>
             </li>
-            <li>
-                <input type="checkbox" /> <label>Task Name</label>
-                <button class="update">Update</button>
+            <li class="item">
+              <input type="checkbox" /><label>Task Name</label>
             </li>
-        </ul>
-    </div>
-    <!-- todo-list -->
-
-
-    <div class="complete-list box">
-        <h2>Completed Tasks</h2>
-        <ul>
+          </ul>
+        </div>
+        <!--/todo-list-->
+  
+        <div class="complete-list box">
+          <h2>Completed Tasks</h2>
+          <ul>
             <li class="item">Task Name <button class="delete">Delete</button></li>
-        </ul>
-    </div>
-    <!--complete list-->
-    </section>
-    <!--container-->
-    <script src="script.js"></script>
-</body>
-</html>
+          </ul>
+        </div>
+        <!--/complete-list-->
+      </section>
+      <!--/container-->
+      <script src="script.js"></script>
+    </body>
+  </html>
